@@ -1,0 +1,7 @@
+linters:
+  enable:
+    - govet # встроенный анализатор Go
+    - staticcheck # улучшенный govet
+    - gocritic # общий анализатор
+
+# запуск golangci-lint run ./...
